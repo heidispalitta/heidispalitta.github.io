@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
+import Home from './Pages/Home.js';
+import Contact from './Pages/Contact.js';
+import About from './Pages/AboutMe.js';
+import Education from './Pages/Education.js';
+import Projects from './Pages/Projects.js';
+import Experience from './Pages/Experience.js';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app">
+        <nav className="navbar">
+          <Link to="/" className="item"><top>Heidi Spalitta</top></Link>
+          <Link to="/about"><custom>About Me Deluxe</custom></Link>
+          <Link to="/education"><custom>Education</custom></Link>
+          <Link to="/experience"><custom>Experience</custom></Link>
+          <Link to="/projects"><custom>Projects</custom></Link>
+        </nav>
+        <main className="content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/experience" element={<Experience />} />
+          </Routes>
+        </main>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
