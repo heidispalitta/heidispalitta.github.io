@@ -11,7 +11,7 @@ const AboutMe = () => {
             </body>
             <body>
                 I enjoy making visual art in my free time (oil painting and sculpture primarily, but I've dabbled in a bunch of mediums).
-                I also enjoy cooking and collecting antique textbooks. My best find is/was a German anatomy textbook from 1855.
+                I also enjoy cooking and collecting antique textbooks. My best find is a German anatomy textbook from 1855.
             </body>
         </section>
     );

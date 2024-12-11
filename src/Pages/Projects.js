@@ -22,7 +22,7 @@ const Projects = () => {
                 <li><h4>Developed an iOS budgeting app for use in a co-design study as a part of my work on the Assistive Technology for Adults with Down Syndrome Project.</h4></li>
             </ul>
             <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-                Finding Care: Reddit and Mental Health in Romania
+                Reddit and Mental Health in Romania
                 <span style={{paddingRight: '5vw'}}>01/24 - 05/24</span>
             </h3>
             <ul>
@@ -39,7 +39,7 @@ const Projects = () => {
                 <li><h4>Completed an academic paper as a part of coursework.</h4></li>
             </ul>
             <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
-                False Comradery: Competition and Commonality in College
+                Competition and Commonality in College
                 <span style={{paddingRight: '5vw'}}>09/23 - 12/23</span>
             </h3>
             <ul>
