@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/Home.js';
 import Contact from './Pages/Contact.js';
@@ -13,11 +13,19 @@ const App = () => {
     <Router>
       <div className="app">
         <nav className="navbar">
+        <div className="profile-container">
+          <img 
+            src="/Images/profile_image.png" 
+            alt="Heidi Spalitta" 
+            className="profile-picture" 
+          />
+        </div>
           <Link to="/" className="item"><top>Heidi Spalitta</top></Link>
           <Link to="/about"><custom>About Me Deluxe</custom></Link>
           <Link to="/education"><custom>Education</custom></Link>
           <Link to="/experience"><custom>Experience</custom></Link>
           <Link to="/projects"><custom>Projects</custom></Link>
+          <Link to="/contact" className="item contact-link"><custom>Contact Me</custom></Link>
         </nav>
         <main className="content">
           <Routes>

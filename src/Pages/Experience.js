@@ -6,7 +6,7 @@ const Experience = () => {
             <h1>Experience</h1>
             <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
                 People and Robots Lab
-                <span style={{paddingRight: '5vw'}}>01/23 - Current</span>
+                <span style={{paddingRight: '5vw'}}>02/23 - Current</span>
             </h3>
             <h4>
                 Assistive Technology for Adults with Down Syndrome Project

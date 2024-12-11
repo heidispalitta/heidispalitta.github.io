@@ -20,6 +20,14 @@
   align-items: flex-start;
   height: 100vh;
   width: 20vw;
+  box-sizing: border-box;
+}
+
+.profile-container {
+  width: 100%; 
+  display: flex; 
+  justify-content: center; 
+  margin-bottom: 20px; 
 }
 
 .navbar a {
@@ -36,6 +44,13 @@
   letter-spacing: 1px;
   font-size: 18px;   
   font-weight: 600;
+}
+
+.contact-link {
+  margin-top: auto; 
+  margin-left: 20px; 
+  text-decoration: none; 
+  font-family: "Inconsolata", monospace; 
 }
 
 .content-section {
@@ -202,4 +217,18 @@
   padding-right: 20px;
   padding-top: 5px;
   margin: 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+.profile-picture {
+  width: 150px; 
+  height: 150px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
