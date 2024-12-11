@@ -32,10 +32,19 @@ const Projects = () => {
             </ul>
             <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
                 Online Discourse Towards Political Art
-                <span style={{paddingRight: '5vw'}}>01/23 - 05/24</span>
+                <span style={{paddingRight: '5vw'}}>01/24 - 05/24</span>
             </h3>
             <ul>
                 <li><h4>Conducted a qualitative analysis of chatrooms, blogs, and Reddit posts regarding a contemporary controversial art exhibit in Bucharest, Romania.</h4></li>
+                <li><h4>Completed an academic paper as a part of coursework.</h4></li>
+            </ul>
+            <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+                False Comradery: Competition and Commonality in College
+                <span style={{paddingRight: '5vw'}}>09/23 - 12/23</span>
+            </h3>
+            <ul>
+                <li><h4>Investigated through a case-study how college students use an attitude of disregard for academics as a method of
+                finding common ground with each other, perpetuating anti-intellectual sentiment.</h4></li>
                 <li><h4>Completed an academic paper as a part of coursework.</h4></li>
             </ul>
             <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
