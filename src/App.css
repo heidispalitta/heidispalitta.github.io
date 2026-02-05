@@ -58,10 +58,14 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   background-color: rgb(235, 232, 219);
   padding-left: 20px;
   width: 80vw;
+}
+
+.content-subsection {
+  align-items: left;
 }
 
 .content-section-main {
