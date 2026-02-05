@@ -42,4 +42,17 @@ const App = () => {
   );
 };
 
+function getWindowSize() {
+  const winWidth = window.innerWidth;
+  const winHeight = window.innerHeight;
+
+  document.documentElement.style.setProperty('--win-width', `${winWidth}px`);
+  document.documentElement.style.setProperty('--win-height', `${winHeight}px`);
+  console.log(winWidth, winHeight);
+}
+
+getWindowSize();
+
+window.addEventListener('resize', getWindowSize);
+
 export default App;

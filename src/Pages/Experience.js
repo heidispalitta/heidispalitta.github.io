@@ -5,9 +5,9 @@ const Experience = () => {
         <section id="AboutMe" className="content-section-main">
             <h1>Experience</h1>
 
-            <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+            <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '80vw', boxSizing: 'border-box'}}>
                 Univeristy of Wisonsin-Madison
-                <span style={{paddingRight: '5vw'}}>08/25 - Current</span>
+                <span >08/25 - Current</span>
             </h3>
             <h4>
                 CS570 and CS571
@@ -16,9 +16,9 @@ const Experience = () => {
                 <i>Teaching Assistant</i>
             </h4>
 
-            <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+            <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '80vw', boxSizing: 'border-box'}}>
                 People and Robots Lab
-                <span style={{paddingRight: '5vw'}}>02/23 - 07/25</span>
+                <span>02/23 - 07/25</span>
             </h3>
             <h4>
                 Assistive Technology for Adults with Down Syndrome Project
@@ -27,9 +27,9 @@ const Experience = () => {
                 <i>Undergraduate Research Assistant</i>
             </h4>
 
-            <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+            <h3 style={{ display: 'flex', justifyContent: 'space-between', width: '80vw', boxSizing: 'border-box'}}>
                 UW-Madison Division of Information Technology
-                <span style={{paddingRight: '5vw'}}>08/21 - 07/23</span>
+                <span>08/21 - 07/23</span>
             </h3>
             <h4>
                 Productivity and Collaboration Services Team
