@@ -58,7 +58,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: left;
   background-color: rgb(235, 232, 219);
   padding-left: 20px;
   width: 80vw;
